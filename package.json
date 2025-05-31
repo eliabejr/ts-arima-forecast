@@ -1,8 +1,8 @@
 {
   "name": "ts-arima-forecast",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TypeScript library for ARIMA, SARIMA (soon), and SARIMAX (soon) forecasting",
-  "author": "Eliabe Serafim Jr",
+  "author": "Eliabe Serafim Jr <contact@eliabejr.com> (https://eliabejr.com)",
   "license": "LGPL-2.1-or-later",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,8 +30,9 @@
     "ts-node": "^10.0.0",
     "typescript": "^5.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eliabejr/ts-arima-forecast"
-  }
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": "https://github.com/eliabejr/ts-arima-forecast.git"
 }
