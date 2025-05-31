@@ -1,0 +1,40 @@
+{
+  "name": "ts-arima-forecast",
+  "version": "1.0.0",
+  "description": "TypeScript library for ARIMA, SARIMA (soon), and SARIMAX (soon) forecasting",
+  "author": "Eliabe Serafim Jr",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "arima",
+    "sarima",
+    "sarimax",
+    "timeseries",
+    "prediction",
+    "forecasting",
+    "statistics",
+    "time-series",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.17.57",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ml-matrix": "^6.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliabejr/ts-arima-forecast"
+  }
+}
