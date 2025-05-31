@@ -1,6 +1,6 @@
 import { ARIMA } from "../models/arima";
 
-export interface ForecastResult {
+interface ForecastResult {
   forecasts: number[];
   confidenceIntervals: { lower: number[]; upper: number[] };
 }

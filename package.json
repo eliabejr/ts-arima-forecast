@@ -1,6 +1,6 @@
 {
   "name": "ts-arima-forecast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript library for ARIMA, SARIMA (soon), and SARIMAX (soon) forecasting",
   "author": "Eliabe Serafim Jr",
   "license": "MIT",
