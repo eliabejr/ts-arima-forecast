@@ -14,7 +14,7 @@ A TypeScript library for ARIMA (AutoRegressive Integrated Moving Average) time s
 ## Installation
 
 ```bash
-yarn install ts-arima-forecast
+npm install ts-arima-forecast
 ```
 
 ## Quick Start
